@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+   <class>Dialog</class>
+   <widget class="QDialog" name="Dialog">
+      <property name="geometry">
+         <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1142</width>
+            <height>618</height>
+         </rect>
+      </property>
+      <property name="windowTitle">
+         <string>COCOMO</string>
+      </property>
+      <widget class="QComboBox" name="comboBox_1">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>20</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>50</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>1</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QLabel" name="label">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>20</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>RELY</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>50</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>DATA</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>80</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>CPLX</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>110</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>TIME</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>140</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>STOR</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>170</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>VIRT</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>200</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>TURN</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>230</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>ACAP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>260</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>AEXP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>290</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>PCAP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>320</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>VEXP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>350</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>LEXP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>380</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>MODP</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>410</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>TOOL</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+         <property name="geometry">
+            <rect>
+               <x>10</x>
+               <y>440</y>
+               <width>39</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>SCED</string>
+         </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>80</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_4">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>110</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>0</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_5">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>140</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>0</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_6">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>170</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>1</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_7">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>200</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>1</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_8">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>230</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_9">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>260</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_10">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>290</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_11">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>320</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_12">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>350</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_13">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>380</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_14">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>410</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_15">
+         <property name="geometry">
+            <rect>
+               <x>60</x>
+               <y>440</y>
+               <width>121</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <property name="currentIndex">
+            <number>2</number>
+         </property>
+         <item>
+            <property name="text">
+               <string>Очень низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Низкий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Номинальный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Высокий</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Очень высокий</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QLineEdit" name="sizeEdit">
+         <property name="geometry">
+            <rect>
+               <x>320</x>
+               <y>170</y>
+               <width>113</width>
+               <height>20</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>100</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+         <property name="geometry">
+            <rect>
+               <x>200</x>
+               <y>170</y>
+               <width>81</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>SIZE (KLOC)</string>
+         </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_16">
+         <property name="geometry">
+            <rect>
+               <x>320</x>
+               <y>200</y>
+               <width>111</width>
+               <height>22</height>
+            </rect>
+         </property>
+         <item>
+            <property name="text">
+               <string>Обычный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Промежуточный</string>
+            </property>
+         </item>
+         <item>
+            <property name="text">
+               <string>Встроенный</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QLabel" name="label_17">
+         <property name="geometry">
+            <rect>
+               <x>200</x>
+               <y>200</y>
+               <width>101</width>
+               <height>21</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Режим проекта</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="pmLabel">
+         <property name="geometry">
+            <rect>
+               <x>200</x>
+               <y>240</y>
+               <width>241</width>
+               <height>16</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Трудоемкость:</string>
+         </property>
+      </widget>
+      <widget class="QLabel" name="tmLabel">
+         <property name="geometry">
+            <rect>
+               <x>200</x>
+               <y>270</y>
+               <width>241</width>
+               <height>16</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Время разработки:</string>
+         </property>
+      </widget>
+      <widget class="QTableWidget" name="wbsTable">
+         <property name="geometry">
+            <rect>
+               <x>520</x>
+               <y>30</y>
+               <width>611</width>
+               <height>291</height>
+            </rect>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>150</number>
+         </attribute>
+         <row>
+            <property name="text">
+               <string>Анализ требований</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Проектирование продукта</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Программирование</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Планирование тестирования</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Верификация и аттестация</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Канцелярия проекта</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Управление конфигурацией и обеспечение качества</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Создание руководств</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>ИТОГО</string>
+            </property>
+         </row>
+         <column>
+            <property name="text">
+               <string>Бюджет (%)</string>
+            </property>
+         </column>
+         <column>
+            <property name="text">
+               <string>Человеко-месяцы</string>
+            </property>
+         </column>
+         <item row="0" column="0">
+            <property name="text">
+               <string>4</string>
+            </property>
+         </item>
+         <item row="1" column="0">
+            <property name="text">
+               <string>12</string>
+            </property>
+         </item>
+         <item row="2" column="0">
+            <property name="text">
+               <string>44</string>
+            </property>
+         </item>
+         <item row="3" column="0">
+            <property name="text">
+               <string>6</string>
+            </property>
+         </item>
+         <item row="4" column="0">
+            <property name="text">
+               <string>14</string>
+            </property>
+         </item>
+         <item row="5" column="0">
+            <property name="text">
+               <string>7</string>
+            </property>
+         </item>
+         <item row="6" column="0">
+            <property name="text">
+               <string>7</string>
+            </property>
+         </item>
+         <item row="7" column="0">
+            <property name="text">
+               <string>6</string>
+            </property>
+         </item>
+         <item row="8" column="0">
+            <property name="text">
+               <string>100</string>
+            </property>
+         </item>
+      </widget>
+      <widget class="QLabel" name="label_18">
+         <property name="geometry">
+            <rect>
+               <x>520</x>
+               <y>10</y>
+               <width>531</width>
+               <height>16</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Стандартное распределение работ по видам деятельности WBS</string>
+         </property>
+      </widget>
+      <widget class="QTableWidget" name="classicTable">
+         <property name="geometry">
+            <rect>
+               <x>520</x>
+               <y>370</y>
+               <width>501</width>
+               <height>231</height>
+            </rect>
+         </property>
+         <attribute name="verticalHeaderVisible">
+            <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+            <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderHighlightSections">
+            <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+            <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+            <bool>false</bool>
+         </attribute>
+         <row>
+            <property name="text">
+               <string>Планирование и определение требований</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Проектирование продукта</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Детальное проектирование</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Кодирование и тестирование отдельных модулей</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Интеграция и тестирование</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Итого без планирования</string>
+            </property>
+         </row>
+         <row>
+            <property name="text">
+               <string>Итого</string>
+            </property>
+         </row>
+         <column>
+            <property name="text">
+               <string>Работа</string>
+            </property>
+         </column>
+         <column>
+            <property name="text">
+               <string>Время</string>
+            </property>
+         </column>
+      </widget>
+      <widget class="QLabel" name="label_19">
+         <property name="geometry">
+            <rect>
+               <x>520</x>
+               <y>340</y>
+               <width>591</width>
+               <height>16</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Распределение работ и времени по стадиям жизненного цикла при традиционном подходе</string>
+         </property>
+      </widget>
+      <widget class="QPushButton" name="projectButton">
+         <property name="geometry">
+            <rect>
+               <x>220</x>
+               <y>300</y>
+               <width>151</width>
+               <height>31</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Рассчитать проект</string>
+         </property>
+      </widget>
+      <widget class="QPushButton" name="task1Button">
+         <property name="geometry">
+            <rect>
+               <x>220</x>
+               <y>370</y>
+               <width>151</width>
+               <height>31</height>
+            </rect>
+         </property>
+         <property name="text">
+            <string>Задача 1</string>
+         </property>
+      </widget>
+   </widget>
+   <resources />
+   <connections />
+</ui>
