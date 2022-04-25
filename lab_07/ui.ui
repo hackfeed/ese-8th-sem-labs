@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+   <class>MainWindow</class>
+   <widget class="QMainWindow" name="MainWindow">
+      <property name="geometry">
+         <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1443</width>
+            <height>709</height>
+         </rect>
+      </property>
+      <property name="windowTitle">
+         <string>COCOMO2</string>
+      </property>
+      <widget class="QWidget" name="centralwidget">
+         <layout class="QGridLayout" name="gridLayout">
+            <property name="leftMargin">
+               <number>0</number>
+            </property>
+            <property name="topMargin">
+               <number>0</number>
+            </property>
+            <property name="rightMargin">
+               <number>0</number>
+            </property>
+            <property name="bottomMargin">
+               <number>0</number>
+            </property>
+            <item row="0" column="0">
+               <widget class="QTabWidget" name="tabWidget">
+                  <property name="currentIndex">
+                     <number>1</number>
+                  </property>
+                  <widget class="QWidget" name="tab_1">
+                     <attribute name="title">
+                        <string>Метод функциональных точек</string>
+                     </attribute>
+                     <layout class="QGridLayout" name="gridLayout_2">
+                        <item row="5" column="5">
+                           <widget class="QLineEdit" name="EIFEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="9">
+                           <widget class="QLabel" name="label_38">
+                              <property name="text">
+                                 <string>Prolog</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="10">
+                           <widget class="QLineEdit" name="AdaEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="10">
+                           <widget class="QLineEdit" name="VCPPEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="10">
+                           <widget class="QLineEdit" name="PrologEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="11" column="10">
+                           <widget class="QLineEdit" name="SQLEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="6">
+                           <widget class="QLabel" name="FPLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="4">
+                           <widget class="QLabel" name="label_19">
+                              <property name="text">
+                                 <string>Внешние интерфейсные файлы (EIF)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="7">
+                           <widget class="QLabel" name="ILFLabel">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="9">
+                           <widget class="QLabel" name="label_34">
+                              <property name="text">
+                                 <string>Fortran</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="5">
+                           <widget class="QLineEdit" name="EQEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="1">
+                           <widget class="QSpinBox" name="spinBox_5">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="6">
+                           <widget class="QComboBox" name="comboBox_3">
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий (3)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Средний (4)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий (6)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="4" column="5">
+                           <widget class="QLineEdit" name="ILFEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="7">
+                           <widget class="QLabel" name="EQLabel">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="9">
+                           <widget class="QLabel" name="label_33">
+                              <property name="text">
+                                 <string>Cobol</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="10">
+                           <widget class="QLineEdit" name="CobolEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="0">
+                           <widget class="QLabel" name="label_5">
+                              <property name="text">
+                                 <string>Частота транзакций</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="0">
+                           <widget class="QLabel" name="label_6">
+                              <property name="text">
+                                 <string>Оперативный ввод данных</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="6">
+                           <widget class="QComboBox" name="comboBox_4">
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий (7)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Средний (10)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий (15)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="4" column="10">
+                           <widget class="QLineEdit" name="FortranEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="1">
+                           <widget class="QSpinBox" name="spinBox_4">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="6">
+                           <widget class="QComboBox" name="comboBox_5">
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий (5)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Средний (7)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий (10)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="5" column="1">
+                           <widget class="QSpinBox" name="spinBox_6">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="9">
+                           <widget class="QLabel" name="label_36">
+                              <property name="text">
+                                 <string>C++</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="7">
+                           <widget class="QLabel" name="EIFLabel">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="10">
+                           <widget class="QLineEdit" name="PascalEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="6">
+                           <widget class="QLabel" name="label_26">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Всего</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="10">
+                           <widget class="QLineEdit" name="JavaEdit">
+                              <property name="text">
+                                 <string>100</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="1">
+                           <widget class="QSpinBox" name="spinBox_8">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="9">
+                           <widget class="QLabel" name="label_35">
+                              <property name="text">
+                                 <string>Pascal</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="10">
+                           <widget class="QLineEdit" name="CPPEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="0">
+                           <widget class="QLabel" name="label_7">
+                              <property name="text">
+                                 <string>Эффективность работы конечных пользователей</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="1">
+                           <widget class="QSpinBox" name="spinBox_7">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="4">
+                           <widget class="QLabel" name="label_15">
+                              <property name="text">
+                                 <string>Внешние вводы (EI)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="9">
+                           <widget class="QLabel" name="label_32">
+                              <property name="text">
+                                 <string>C</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="6">
+                           <widget class="QComboBox" name="comboBox_2">
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий (4)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Средний (5)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий (7)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="2" column="1">
+                           <widget class="QSpinBox" name="spinBox_3">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="10">
+                           <widget class="QLineEdit" name="CEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="8">
+                           <spacer name="horizontalSpacer">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="3" column="0">
+                           <widget class="QLabel" name="label_4">
+                              <property name="text">
+                                 <string>Эксплуатационные ограничения</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="2">
+                           <spacer name="horizontalSpacer_7">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="3" column="4">
+                           <widget class="QLabel" name="label_17">
+                              <property name="text">
+                                 <string>Внешние запросы (EQ)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="5">
+                           <widget class="QPushButton" name="calculateButton">
+                              <property name="text">
+                                 <string>Рассчитать</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="8">
+                           <spacer name="horizontalSpacer_2">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="4" column="8">
+                           <spacer name="horizontalSpacer_4">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="3" column="8">
+                           <spacer name="horizontalSpacer_3">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="5" column="8">
+                           <spacer name="horizontalSpacer_5">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="6" column="8">
+                           <spacer name="horizontalSpacer_6">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="11" column="5">
+                           <widget class="QLabel" name="label_44">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Нормированное количество функциональных точек:</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="2">
+                           <spacer name="horizontalSpacer_8">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="3" column="2">
+                           <spacer name="horizontalSpacer_9">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="4" column="2">
+                           <spacer name="horizontalSpacer_10">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="5" column="2">
+                           <spacer name="horizontalSpacer_11">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="12" column="5">
+                           <widget class="QLabel" name="label_46">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Количество функциональных точек:</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="5">
+                           <widget class="QLabel" name="label_47">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Количество строк исходного кода:</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="4">
+                           <widget class="QLabel" name="label_18">
+                              <property name="text">
+                                 <string>Внутренние логические файлы (ILF)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="11" column="6">
+                           <widget class="QLabel" name="NormFPLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="10">
+                           <widget class="QLineEdit" name="CSharpEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="9">
+                           <widget class="QLabel" name="label_41">
+                              <property name="text">
+                                 <string>Visual C++</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="9">
+                           <widget class="QLabel" name="label_40">
+                              <property name="text">
+                                 <string>Delphi Pascal</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="9">
+                           <widget class="QLabel" name="label_39">
+                              <property name="text">
+                                 <string>Perl</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="10">
+                           <widget class="QLineEdit" name="PerlEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="9">
+                           <widget class="QLabel" name="label_43">
+                              <property name="text">
+                                 <string>Ada 95</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="10">
+                           <widget class="QLineEdit" name="DelphiEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="9">
+                           <widget class="QLabel" name="label_70">
+                              <property name="text">
+                                 <string>C#</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="9">
+                           <widget class="QLabel" name="label_37">
+                              <property name="text">
+                                 <string>Java</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="0">
+                           <widget class="QLabel" name="label_8">
+                              <property name="text">
+                                 <string>Оперативное обновление</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="11" column="9">
+                           <widget class="QLabel" name="label_42">
+                              <property name="text">
+                                 <string>SQL</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="6" column="7">
+                           <widget class="QLabel" name="ResLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="6">
+                           <widget class="QLabel" name="LOCLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="0">
+                           <widget class="QLabel" name="label">
+                              <property name="text">
+                                 <string>Передачи данных</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="1">
+                           <widget class="QSpinBox" name="spinBox_1">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="6">
+                           <widget class="QComboBox" name="comboBox_1">
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий (3)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Средний (4)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий (6)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="1" column="5">
+                           <widget class="QLineEdit" name="EIEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="7">
+                           <widget class="QLabel" name="EILabel">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="9">
+                           <widget class="QLabel" name="label_31">
+                              <property name="text">
+                                 <string>ASM</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="10">
+                           <widget class="QLineEdit" name="ASMEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="0">
+                           <widget class="QLabel" name="label_3">
+                              <property name="text">
+                                 <string>Производительность</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="6">
+                           <widget class="QLabel" name="label_28">
+                              <property name="text">
+                                 <string>Сложность</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="1">
+                           <widget class="QSpinBox" name="spinBox_2">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="5">
+                           <widget class="QLabel" name="label_27">
+                              <property name="text">
+                                 <string>Количество</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="7">
+                           <widget class="QLabel" name="label_29">
+                              <property name="text">
+                                 <string>Итог</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="0" column="9" colspan="2">
+                           <widget class="QLabel" name="label_30">
+                              <property name="text">
+                                 <string>Процент использования языков</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="0">
+                           <widget class="QLabel" name="label_2">
+                              <property name="text">
+                                 <string>Распределенная обработка данных</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="4">
+                           <widget class="QLabel" name="label_16">
+                              <property name="text">
+                                 <string>Внешние выводы (EO)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="5">
+                           <widget class="QLineEdit" name="EOEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="7">
+                           <widget class="QLabel" name="EOLabel">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="0">
+                           <widget class="QLabel" name="label_9">
+                              <property name="text">
+                                 <string>Сложность обработки</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="1">
+                           <widget class="QSpinBox" name="spinBox_9">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="0">
+                           <widget class="QLabel" name="label_10">
+                              <property name="text">
+                                 <string>Повторное использование</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="1">
+                           <widget class="QSpinBox" name="spinBox_10">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="11" column="0">
+                           <widget class="QLabel" name="label_11">
+                              <property name="text">
+                                 <string>Легкость инсталляции</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="11" column="1">
+                           <widget class="QSpinBox" name="spinBox_11">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="0">
+                           <widget class="QLabel" name="label_12">
+                              <property name="text">
+                                 <string>Легкость эксплуатации</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="1">
+                           <widget class="QSpinBox" name="spinBox_12">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="0">
+                           <widget class="QLabel" name="label_13">
+                              <property name="text">
+                                 <string>Портируемость</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="1">
+                           <widget class="QSpinBox" name="spinBox_13">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="0">
+                           <widget class="QLabel" name="label_14">
+                              <property name="text">
+                                 <string>Простота изменений</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="1">
+                           <widget class="QSpinBox" name="spinBox_14">
+                              <property name="maximum">
+                                 <number>5</number>
+                              </property>
+                           </widget>
+                        </item>
+                     </layout>
+                  </widget>
+                  <widget class="QWidget" name="tab_2">
+                     <attribute name="title">
+                        <string>Модели композиции и ранней разработки архитектуры</string>
+                     </attribute>
+                     <layout class="QGridLayout" name="gridLayout_3">
+                        <item row="7" column="1">
+                           <widget class="QLabel" name="PLabel">
+                              <property name="font">
+                                 <font>
+                                    <pointsize>12</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="0">
+                           <widget class="QLabel" name="label_45">
+                              <property name="font">
+                                 <font>
+                                    <pointsize>12</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>P равно:</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="8">
+                           <widget class="QLineEdit" name="reportMediumEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="17" column="1">
+                           <widget class="QComboBox" name="archComboBox_7">
+                              <property name="currentIndex">
+                                 <number>2</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="16" column="0">
+                           <widget class="QLabel" name="label_55">
+                              <property name="text">
+                                 <string>FCIL</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="16" column="1">
+                           <widget class="QComboBox" name="archComboBox_6">
+                              <property name="currentIndex">
+                                 <number>2</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="17" column="0">
+                           <widget class="QLabel" name="label_56">
+                              <property name="text">
+                                 <string>SCED</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="20" column="0">
+                           <widget class="QLabel" name="label_69">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Время, мес</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="8">
+                           <widget class="QLabel" name="label_63">
+                              <property name="text">
+                                 <string>Отчеты</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="20" column="1">
+                           <widget class="QLabel" name="archTimeLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="6">
+                           <widget class="QLabel" name="label_59">
+                              <property name="text">
+                                 <string>Экранные формы</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="19" column="1">
+                           <widget class="QLabel" name="archLabLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="19" column="6">
+                           <widget class="QLabel" name="compLabLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="18" column="1">
+                           <widget class="QPushButton" name="archCalculateButton">
+                              <property name="text">
+                                 <string>Рассчитать</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="18" column="6">
+                           <widget class="QPushButton" name="compCalculateButton">
+                              <property name="text">
+                                 <string>Рассчитать</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="20" column="5">
+                           <widget class="QLabel" name="label_75">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Время, мес</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="20" column="6">
+                           <widget class="QLabel" name="compTimeLabel">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="19" column="5">
+                           <widget class="QLabel" name="label_74">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Трудозатраты, чел/мес</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="6">
+                           <widget class="QLineEdit" name="screenDifficultEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="7">
+                           <widget class="QLabel" name="label_66">
+                              <property name="text">
+                                 <string>Сложные</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="5">
+                           <widget class="QLabel" name="label_60">
+                              <property name="text">
+                                 <string>Простые</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="1">
+                           <widget class="QComboBox" name="archComboBox_5">
+                              <property name="currentIndex">
+                                 <number>2</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="3" column="0" colspan="3">
+                           <widget class="QLabel" name="label_23">
+                              <property name="text">
+                                 <string>Анализ архитектуры системы и рисков (RESL)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="0" colspan="3">
+                           <widget class="QLabel" name="label_25">
+                              <property name="text">
+                                 <string>Уровень развития процесса разработки (PMAT)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="0" colspan="4">
+                           <widget class="QLabel" name="label_48">
+                              <property name="font">
+                                 <font>
+                                    <pointsize>14</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Модель ранней разработки архитектуры</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="2" column="3" colspan="7">
+                           <widget class="QComboBox" name="powComboBox_2">
+                              <item>
+                                 <property name="text">
+                                    <string>Точный, строгий процесс разработки</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Случайные послабления в процессе</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Некоторые послабления в процессе</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Большей частью согласованный процесс</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Некоторое согласование процесса</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Заказчик определил только общие цели</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="1" column="0" colspan="3">
+                           <widget class="QLabel" name="label_21">
+                              <property name="text">
+                                 <string>Новизна проекта (PREC)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="4" column="3" colspan="7">
+                           <widget class="QComboBox" name="powComboBox_4">
+                              <item>
+                                 <property name="text">
+                                    <string>Сильно затрудненное взаимодействие</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Несколько затрудненное взаимодействие</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Некоторая согласованность</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Повышенная согласованность</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокая согласованность</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Взаимодействие как в едином целом</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="4" column="0" colspan="3">
+                           <widget class="QLabel" name="label_24">
+                              <property name="text">
+                                 <string>Сплоченность команды (TEAM)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="0">
+                           <widget class="QLabel" name="label_50">
+                              <property name="text">
+                                 <string>PERS</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="10" column="1">
+                           <widget class="QComboBox" name="archComboBox_1">
+                              <property name="currentIndex">
+                                 <number>2</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="14" column="8">
+                           <widget class="QLineEdit" name="reportDifficultEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="5">
+                           <widget class="QLabel" name="label_61">
+                              <property name="text">
+                                 <string>Средние</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="7">
+                           <widget class="QLabel" name="label_64">
+                              <property name="text">
+                                 <string>Простые</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="8">
+                           <widget class="QLineEdit" name="reportSimpleEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="5">
+                           <widget class="QLabel" name="label_62">
+                              <property name="text">
+                                 <string>Сложные</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="17" column="6">
+                           <widget class="QComboBox" name="expComboBox">
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкая</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкая</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальная</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокая</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокая</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="16" column="6">
+                           <widget class="QLineEdit" name="RUSEEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="6">
+                           <widget class="QLineEdit" name="gen3Edit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="16" column="5">
+                           <widget class="QLabel" name="label_57">
+                              <property name="text">
+                                 <string>%RUSE</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="19" column="0">
+                           <widget class="QLabel" name="label_68">
+                              <property name="font">
+                                 <font>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Трудозатраты, чел/мес</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="0">
+                           <widget class="QLabel" name="label_52">
+                              <property name="text">
+                                 <string>RUSE</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="1">
+                           <widget class="QComboBox" name="archComboBox_2">
+                              <property name="currentIndex">
+                                 <number>2</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="12" column="0">
+                           <widget class="QLabel" name="label_51">
+                              <property name="text">
+                                 <string>RCPX</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="13" column="1">
+                           <widget class="QComboBox" name="archComboBox_3">
+                              <property name="currentIndex">
+                                 <number>1</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="13" column="6">
+                           <widget class="QLineEdit" name="screenMediumEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="12" column="6">
+                           <widget class="QLineEdit" name="screenSimpleEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="9" column="4">
+                           <spacer name="horizontalSpacer_12">
+                              <property name="orientation">
+                                 <enum>Qt::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                                 <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                 </size>
+                              </property>
+                           </spacer>
+                        </item>
+                        <item row="9" column="5" colspan="5">
+                           <widget class="QLabel" name="label_49">
+                              <property name="font">
+                                 <font>
+                                    <pointsize>14</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Модель композиции приложения</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="5">
+                           <widget class="QLabel" name="label_67">
+                              <property name="text">
+                                 <string>Модулей на языках 3 поколения</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="17" column="5">
+                           <widget class="QLabel" name="label_58">
+                              <property name="text">
+                                 <string>Опытность команды/разработчика</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="15" column="0">
+                           <widget class="QLabel" name="label_54">
+                              <property name="text">
+                                 <string>PREX</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="4">
+                           <widget class="QPushButton" name="pCalculateButton">
+                              <property name="text">
+                                 <string>Рассчитать</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="6">
+                           <widget class="QLabel" name="label_71">
+                              <property name="text">
+                                 <string>Средняя зарплата</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="7" column="7" colspan="2">
+                           <widget class="QLineEdit" name="avgSalaryEdit">
+                              <property name="text">
+                                 <string>0</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="3" column="3" colspan="7">
+                           <widget class="QComboBox" name="powComboBox_3">
+                              <item>
+                                 <property name="text">
+                                    <string>Малое (20 %)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Некоторое (40 %)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Частое (60 %)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>В целом (75 %)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Почти полное (90 %)</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Полное (100%)</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="14" column="0">
+                           <widget class="QLabel" name="label_53">
+                              <property name="text">
+                                 <string>PDIF</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="14" column="1">
+                           <widget class="QComboBox" name="archComboBox_4">
+                              <property name="currentIndex">
+                                 <number>1</number>
+                              </property>
+                              <item>
+                                 <property name="text">
+                                    <string>Низкий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Номинальный</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Очень высокий</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Сверхвысокий</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="13" column="7">
+                           <widget class="QLabel" name="label_65">
+                              <property name="text">
+                                 <string>Средние</string>
+                              </property>
+                              <property name="alignment">
+                                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="1" column="3" colspan="7">
+                           <widget class="QComboBox" name="powComboBox_1">
+                              <item>
+                                 <property name="text">
+                                    <string>Полное отсутствие прецедентов, полностью непредсказуемый проект</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Почти полное отсутствие прецедентов, в значительной мере непредсказуемый проект</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Наличие некоторого количества прецедентов</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Общее знакомство с проектом</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Значительное знакомство с проектом</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Полное знакомство с проектом</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="2" column="0" colspan="3">
+                           <widget class="QLabel" name="label_22">
+                              <property name="text">
+                                 <string>Гибкость процесса разработки (FLEX)</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="5" column="3" colspan="7">
+                           <widget class="QComboBox" name="powComboBox_5">
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 1 СММ</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 1+ СММ</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 2 СММ</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 3 СММ</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 7 СММ</string>
+                                 </property>
+                              </item>
+                              <item>
+                                 <property name="text">
+                                    <string>Уровень 5 СММ</string>
+                                 </property>
+                              </item>
+                           </widget>
+                        </item>
+                        <item row="0" column="0" colspan="10">
+                           <widget class="QLabel" name="label_20">
+                              <property name="font">
+                                 <font>
+                                    <pointsize>14</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                 </font>
+                              </property>
+                              <property name="text">
+                                 <string>Факторы показателя степени модели</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="21" column="5" alignment="Qt::AlignRight">
+                           <widget class="QLabel" name="label_72">
+                              <property name="styleSheet">
+                                 <string notr="true" />
+                              </property>
+                              <property name="text">
+                                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Бюджет&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="21" column="6">
+                           <widget class="QLabel" name="compBudgetLabel">
+                              <property name="text">
+                                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="21" column="0" alignment="Qt::AlignRight">
+                           <widget class="QLabel" name="label_73">
+                              <property name="text">
+                                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Бюджет&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                           </widget>
+                        </item>
+                        <item row="21" column="1">
+                           <widget class="QLabel" name="archBudgetLabel">
+                              <property name="text">
+                                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                           </widget>
+                        </item>
+                     </layout>
+                  </widget>
+               </widget>
+            </item>
+         </layout>
+      </widget>
+      <widget class="QMenuBar" name="menubar">
+         <property name="geometry">
+            <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1443</width>
+               <height>24</height>
+            </rect>
+         </property>
+      </widget>
+      <widget class="QStatusBar" name="statusbar" />
+   </widget>
+   <resources />
+   <connections />
+</ui>

@@ -1,10 +1,12 @@
-import sys
 import os
-from matplotlib import pyplot as plt
+import sys
+
 import numpy as np
-from PyQt5 import uic, QtCore
+from matplotlib import pyplot as plt
+from PyQt5 import QtCore, uic
 from PyQt5.QtCore import pyqtSlot
-from PyQt5.QtWidgets import QApplication, QDialog, QLineEdit, QComboBox, QHeaderView, QTableWidgetItem
+from PyQt5.QtWidgets import (QApplication, QComboBox, QDialog, QHeaderView,
+                             QLineEdit, QTableWidgetItem)
 
 
 def resource_path(relative_path):
